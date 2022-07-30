@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: ForceFiled
-  m_Shader: {fileID: -6465566751694194690, guid: 34297d68a7c3b4a18a90e2e8a03705c3,
+  m_Shader: {fileID: -6465566751694194690, guid: 85c17171fd4fe43b7842b2ea23fbe9fc,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -64,6 +64,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoisyTexture:
+        m_Texture: {fileID: 2800000, guid: bab5da8e78695449e91f13cd1135aef9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -126,8 +130,8 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _ScanSize: 0.93
-    - _ScanSpeed: 1
+    - _ScanSize: 0.7
+    - _ScanSpeed: 2
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -140,12 +144,13 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Filling: {r: 10, g: 10, b: 0, a: 0}
-    - _HexFilling: {r: 20, g: 20, b: 0, a: 0}
+    - _HexFilling: {r: 10, g: 10, b: 0, a: 0}
     - _HexOffset: {r: 0, g: 0, b: 0, a: 0}
     - _LineFilling: {r: 0, g: 0.18, b: 0, a: 0}
     - _LineOffset: {r: 0, g: 6.39, b: 0, a: 0}
+    - _NoisyColor: {r: 8, g: 3.6705883, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _RimColor: {r: 0.92267215, g: 1.6775856, b: 2.6701572, a: 0}
-    - _RimPower: {r: 2, g: 4, b: 0, a: 0}
+    - _RimPower: {r: 1, g: 2, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
