@@ -1,0 +1,1 @@
+1: depth texture: influence texture by camera distance, check Project Setting->Graphics
